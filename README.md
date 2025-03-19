@@ -15,5 +15,5 @@ fatal: destination path 'ddos-simulator' already exists and is not an empty dire
 python: can't open file '/data/data/com.termux/files/home/ddos-simulator/ddos_sim.py': [Errno 2] No such file or directory
 
 
-guna kan ini saat first $1
+guna kan ini 
 rm -rf ddos-simulator
