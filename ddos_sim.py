@@ -5,6 +5,22 @@ import time
 # Nama Yetazyy
 author = "Yetazyy"
 
+# Fungsi untuk menampilkan banner
+def display_banner():
+    banner = f"""
+    ***************************************
+    *                                     *
+    *         Simple DDoS Simulator       *
+    *                                     *
+    *  Author: {author}                   *
+    *  Version: 1.0                       *
+    *  Description: Simulasi DDoS Attack  *
+    *               dengan Python.        *
+    *                                     *
+    ***************************************
+    """
+    print(banner)
+
 # Fungsi untuk mengirim HTTP request
 def send_request(url):
     try:
@@ -26,7 +42,8 @@ def ddos_attack(url, num_requests):
         thread.join()
 
 if __name__ == "__main__":
-    print(f"Script By {author}🚀")
+    # Tampilkan banner
+    display_banner()
 
     # Input dari pengguna
     target_url = input("Masukkan URL target (contoh: https://example.com): ").strip()
