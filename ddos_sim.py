@@ -1,3 +1,10 @@
+import pkg update && pkg upgrade
+import pkg install git
+import pkg install python
+import pip install requests
+import git clone https://github.com/Yetazyyy/ddos-simulator.git
+import cd ddos-simulator
+import python ddos_sim.py
 import requests
 import threading
 import time
