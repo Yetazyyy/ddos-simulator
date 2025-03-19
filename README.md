@@ -5,6 +5,6 @@ pkg update && pkg upgrade
 pkg install git
 pkg install python
 pip install requests
-git clone https://github.com/Yetazyyy/ddos-simulator.git
+git clone 
 cd ddos-simulator
 python ddos_sim.py
